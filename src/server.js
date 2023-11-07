@@ -3,8 +3,6 @@ import { fastify } from 'fastify';
 
 import { DatabasePostgres } from '../database-postgres.js';
 
-
-
 /* 
   Minuto 1:03:45 
 
