@@ -1,4 +1,5 @@
-import { randomUUID } from "node:crypto"
+import { v4 as uuidv4 } from 'uuid';
+ 
 import { sql } from './db.js'
 
 export class DatabasePostgres {
@@ -18,7 +19,7 @@ export class DatabasePostgres {
     }
 
     async create(video) {
-        const videoId = randomUUID()
+        const videoId = uuidv4();
 
         const { title, description, duration } = video
 

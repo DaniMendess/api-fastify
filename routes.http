@@ -2,8 +2,8 @@ POST http://localhost:3333/videos
 Content-Type: application/json
 
 {
-    "title": "video node",
-    "description": "Meu video",
+    "title": "add uuid",
+    "description": "uuid",
     "duration": 180
 }
 
