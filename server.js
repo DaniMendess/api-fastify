@@ -1,7 +1,7 @@
 import { fastify } from 'fastify';
 // import { DatabaseMemory} from './database-memory'
 
-import { DatabasePostgres } from '../database-postgres.js';
+import { DatabasePostgres } from './database-postgres.js';
 
 /* 
   Minuto 1:03:45 
